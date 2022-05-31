@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PreferencesActivity</string>
+    <string name="menu_configuraciones">Configuraciones</string>
+
+    <string name="pref_enviarReporte">Enviar reportes de error</string>
+    <string name="pref_enviarReporte_desc">Ayuda a reparar errores</string>
+    <string name="pref_FrecuenciaSinc">Frecuencia de Sincronización</string>
+    <string name="pref_sync_frequency_summary">Coloca la frecuencia de Sincronización</string>
+    <string name="pref_nombreUser">Nombre de Usuario</string>
+    <string name="pref_nombreUser_desc">Coloca tu Nombre de Usuario</string>
+
+    <string name="pref_perfilUser">Perfil de Uusario</string>
+    <string name="pref_actualizarConfig">Actualizar Configuraciones</string>
+</resources>

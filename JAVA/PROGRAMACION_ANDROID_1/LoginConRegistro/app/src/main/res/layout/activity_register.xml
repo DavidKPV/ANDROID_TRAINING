@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:text="REGISTRO"
+        android:textStyle="bold"
+        android:textColor="@color/colorNegro"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="172dp"
+        android:layout_height="138dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/userregister" />
+
+    <!-- TEXT INPUT LAYOUT DEL NUEVO USUARIO -->
+    <LinearLayout
+        android:id="@+id/llNewUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilNUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@color/colorPrimaryDark">
+
+            <EditText
+                android:id="@+id/EtNewUser"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="70dp"
+                android:hint="Ingresa tu nombre de Usuario"
+                android:layout_marginLeft="80dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <!-- TEXT INPUT LAYOUT DE LA NUEVA CONTRASEÑA -->
+    <LinearLayout
+        android:id="@+id/llNewPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilNPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@color/colorPrimaryDark"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/EtNewPass"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="70dp"
+                android:hint="Nueva Contraseña"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <!-- TEXT INPUT LAYOUT DE lA REPETICIÓN DEL PASSWORD -->
+    <LinearLayout
+        android:id="@+id/llRepeatPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="70dp"
+        android:orientation="horizontal">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilNPass2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@color/colorPrimaryDark"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/EtPassx2"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="70dp"
+                android:hint="Repite la Contraseña"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/BtnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarme"
+        android:textColor="@color/colorBlanco"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="120dp"
+        android:scrollbarStyle="insideOverlay"/>
+
+</LinearLayout>

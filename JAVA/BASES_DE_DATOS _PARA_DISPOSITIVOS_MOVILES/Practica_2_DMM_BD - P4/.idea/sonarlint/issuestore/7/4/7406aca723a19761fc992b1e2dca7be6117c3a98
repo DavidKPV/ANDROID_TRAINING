@@ -1,0 +1,17 @@
+
+9
+java:S1659"#Declare "filas" on a separate line.(²áô
+j
+java:S1450"TRemove the "filas" field and declare it as a local variable in the relevant methods.(²áô
+@
+java:S1197"*Move the array designators [] to the type.(À§š¯
+?
+java:S1197"*Move the array designators [] to the type.(å›˜^
+@
+java:S1197"*Move the array designators [] to the type.(’–
+E
+java:S1197"*Move the array designators [] to the type.(ß ­·ûÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(ğ¶Âóüÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Í©Äöıÿÿÿÿ
+g	java:S101p"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Í€ïıÿÿÿÿ

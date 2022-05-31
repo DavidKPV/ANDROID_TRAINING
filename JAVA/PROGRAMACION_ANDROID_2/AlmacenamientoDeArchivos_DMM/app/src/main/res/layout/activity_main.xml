@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".MainActivity">
+            <ImageView
+                android:id="@+id/imageView" android:layout_width="408dp"
+                android:layout_height="230dp" app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/paisaje"/>
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" android:text="BIENVENIDO"
+                android:textColor="#000000" android:textStyle="bold"
+                android:textColorHighlight="#FFFFFF" android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView"/>
+            <EditText
+                android:id="@+id/etNombre" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp" android:layout_marginRight="50dp"
+                android:ems="10" android:inputType="textPersonName"
+                android:hint="Nombre"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+            <EditText
+                android:id="@+id/etPassword" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp" android:layout_marginRight="50dp"
+                android:ems="10" android:inputType="textPassword"
+                android:hint="Contraseña" app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etNombre" />
+            <Button
+                android:id="@+id/btnIngresar" android:layout_width="0dp"
+                android:layout_height="wrap_content" android:layout_marginLeft="50dp"
+                android:layout_marginTop="28dp" android:layout_marginRight="50dp"
+                android:background="@color/colorPrimaryDark" android:text="INGRESAR"
+                android:textColor="@color/colorBlanco"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.513"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+            <Button
+                android:id="@+id/btnRegistrar" android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="50dp"
+                android:background="@color/colorPrimary"
+                android:text="REGISTRARME"
+                android:textColor="@color/colorBlanco"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnIngresar" />
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="40dp"
+                android:text="By David Martinez Martinez"
+                android:textColor="@color/colorNegro"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnRegistrar" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>

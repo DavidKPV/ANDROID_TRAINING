@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_perfilUser" >
+        <EditTextPreference
+            android:title="@string/pref_nombreUser"
+            android:summary="@string/pref_nombreUser_desc"
+            android:key="prefUsuario"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_actualizarConfig" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefEnviarReportes"
+            android:summary="@string/pref_enviarReporte_desc"
+            android:title="@string/pref_enviarReporte" >
+        </CheckBoxPreference>
+
+        <ListPreference
+            android:key="prefFrecuencuaSinc"
+            android:entries="@array/FrecuenciaSinc"
+            android:summary="@string/pref_sync_frequency_summary"
+            android:entryValues="@array/FrecuenciaSincValores"
+            android:title="@string/pref_FrecuenciaSinc" />
+    </PreferenceCategory>
+</PreferenceScreen>

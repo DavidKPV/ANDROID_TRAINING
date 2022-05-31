@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Reportes PDF"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnGenerarPDF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GENERAR PDF"
+            android:background="@color/colorAccent"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/btnVerPDF"
+            android:layout_width="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_height="wrap_content"
+            android:text="VER PDF"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llAreaPDF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff6"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="GRÁFICA MPAndroidChart"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/graficaBarras"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</LinearLayout>

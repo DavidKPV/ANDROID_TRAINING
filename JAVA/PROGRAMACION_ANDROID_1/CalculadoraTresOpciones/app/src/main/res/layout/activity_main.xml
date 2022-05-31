@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CALCULADORA"
+        android:textSize="20pt"
+        android:textColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/etnumero1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="NÚMERO 1"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:inputType="numberDecimal|numberSigned"
+        />
+
+    <EditText
+        android:id="@+id/etnumero2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="NÚMERO 2"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:inputType="numberDecimal|numberSigned"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorVerdeF"
+            android:onClick="suma"
+            android:text="SUMA"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/blanco"
+            />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorVerdeF"
+            android:onClick="multiplica"
+            android:text="MULTIPLICACIÓN"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/blanco"
+            />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/colorVerdeF"
+            android:onClick="divide"
+            android:text="DIVISIÓN"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/blanco"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

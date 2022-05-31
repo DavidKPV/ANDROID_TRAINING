@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="ContentProvider Contactos"
+        android:textColor="@color/colorNegro"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/btnAregarContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorBlanco"
+        android:textStyle="bold"
+        android:text="AGREGAR CONTACTO" />
+
+    <Button
+        android:id="@+id/btnVerContactos"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:textColor="@color/colorBlanco"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:text="VER CONTACTOS" />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/tvNombre"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Actividad_11">
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="ACTIVIDAD 11 - DAVID MARTINEZ MARTINEZ"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/btn_anim1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorKratos"
+        android:padding="10dp"
+        android:text="ANIMACIÓN 1"
+        android:textColor="@color/colorBlanco"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+    <Button
+        android:id="@+id/btn_anim2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorKratos"
+        android:padding="10dp"
+        android:text="ANIMACIÓN 2"
+        android:textColor="@color/colorBlanco"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_anim1"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+    <Button
+        android:id="@+id/btn_anim3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorKratos"
+        android:padding="10dp"
+        android:text="ANIMACIÓN 3"
+        android:textColor="@color/colorBlanco"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_anim2" />
+    <Button
+        android:id="@+id/btn_anim4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorKratos"
+        android:padding="10dp"
+        android:text="ANIMACIÓN 4"
+        android:textColor="@color/colorBlanco"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_anim3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_anim2" />
+    <Button
+        android:id="@+id/btn_anim5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorKratos"
+        android:padding="10dp"
+        android:text="ANIMACIÓN 5"
+        android:textColor="@color/colorBlanco"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_anim4" />
+    <Button
+        android:id="@+id/btn_anim6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorKratos"
+        android:padding="10dp"
+        android:text="ANIMACIÓN 6"
+        android:textColor="@color/colorBlanco"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_anim5"
+        app:layout_constraintTop_toBottomOf="@+id/btn_anim4" />
+    <ImageView
+        android:id="@+id/ivKratos"
+        android:layout_width="211dp"
+        android:layout_height="457dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_anim5"
+        app:srcCompat="@drawable/kratitos2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

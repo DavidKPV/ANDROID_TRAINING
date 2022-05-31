@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/textView4" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginTop="40dp"
+        android:text="Uso de SQLite" android:textColor="@color/colorNegro"
+        android:textStyle="bold" android:textSize="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textView3" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_marginTop="20dp"
+        android:text="By David Martinez Martinez" android:textColor="@color/colorNegro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+    <Button
+        android:id="@+id/btnRegistrar" android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" android:textColor="@color/colorNegro"
+        android:textStyle="bold" android:background="@color/colorBtn1"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="50dp" android:text="REGISTRAR USUARIO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+    <Button
+        android:id="@+id/btnConsultar" android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" android:textColor="@color/colorNegro"
+        android:textStyle="bold" android:background="@color/colorBtn2"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="50dp" android:text="CONSULTAR USUARIO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegistrar" />
+    <Button
+        android:id="@+id/btnVisualizarUsers" android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp" android:textColor="@color/colorNegro"
+        android:textStyle="bold" android:background="@color/colorBtn3"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="50dp" android:text="VISUALIZAR USUARIOS EN LISTVIEW"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConsultar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

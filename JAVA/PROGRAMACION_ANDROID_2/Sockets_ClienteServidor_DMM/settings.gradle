@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "Sockets_Cliente-Servidor_DMM"

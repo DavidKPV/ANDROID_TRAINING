@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- ITEM QUE INDICARÁ EL COLOR DE FONDO -->
+    <item android:drawable="@color/white"/>
+    <!-- ITEM QUE ALMACENARÁ LA IMAGEN PARA EL SPLASH -->
+    <item>
+        <bitmap
+            android:src="@drawable/baz"
+            android:gravity="center"/>
+    </item>
+</layer-list>

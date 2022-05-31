@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.david.clase_1">
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/AppTheme">
+        <activity android:name=".Actividad_11" android:label="Animaciones Tween"/>
+        <activity android:name=".Actividad_10" android:label="Canvas Actividad 10"/>
+        <activity android:name=".Actividad_9" android:label="Canvas Actividad 9"/>
+        <activity android:name=".Actividad_8" android:label="Canvas Actividad 8"/>
+        <activity android:name=".Actividad_7" android:label="Canvas Actividad 7"/>
+        <activity android:name=".Actividad_6" android:label="Canvas Actividad 6"/>
+        <activity android:name=".Actividad_5" android:label="Canvas Actividad 5"/>
+        <activity android:name=".Actividad_4" android:label="Canvas Actividad 4"/>
+        <activity android:name=".Actividad_3" android:label="Canvas Actividad 3"/>
+        <activity android:name=".Actividad_2" android:label="Canvas Actividad 2"/>
+        <activity android:name=".Actividad_1" android:label="Canvas Actividad 1"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

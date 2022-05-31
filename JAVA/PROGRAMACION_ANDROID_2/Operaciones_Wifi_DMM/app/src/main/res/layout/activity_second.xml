@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondowifi"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+    <TextView
+        android:layout_width="match_parent" android:gravity="center"
+        android:layout_marginTop="20sp" android:textSize="20sp"
+        android:textStyle="bold" android:layout_height="wrap_content"
+        android:text="REDES WIFI GUARDADAS" android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/tvResult" android:layout_width="match_parent"
+        android:gravity="center" android:layout_marginTop="5sp"
+        android:textSize="15sp" android:textStyle="bold"
+        android:layout_height="wrap_content" android:textColor="@color/black"/>
+    <ListView
+        android:layout_marginTop="10sp"
+        android:id="@+id/lvResult"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="40sp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:text="CLIENTE DE COMUNICACIÓN\nModelo Cliente / Servidor" />
+        <TextView
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="10sp"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"
+            android:text="By David Martinez Martinez"/>
+
+        <EditText
+            android:id="@+id/etIp"
+            android:layout_marginTop="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50sp"
+            android:layout_marginLeft="50sp"
+            android:hint="Dirección IP"/>
+        <EditText
+            android:id="@+id/etPuerto"
+            android:layout_marginTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50sp"
+            android:layout_marginLeft="50sp"
+            android:hint="Puerto"/>
+        <EditText
+            android:id="@+id/etMensaje"
+            android:layout_marginTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50sp"
+            android:layout_marginLeft="50sp"
+            android:hint="Mensaje"/>
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_marginTop="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:layout_marginRight="50sp"
+            android:text="ENVIAR"/>
+
+    </LinearLayout>
+
+</ScrollView>

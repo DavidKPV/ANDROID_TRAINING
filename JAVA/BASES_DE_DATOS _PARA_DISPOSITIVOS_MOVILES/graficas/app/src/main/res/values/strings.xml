@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Graficas</string>
+    <string name="tab_text_1">Bar Chart</string>
+    <string name="tab_text_2">Bubble Chart</string>
+</resources>

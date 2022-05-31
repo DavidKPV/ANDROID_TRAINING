@@ -1,0 +1,21 @@
+
+w
+java:S1450"\Remove the "btDBLABinding" field and declare it as a local variable in the relevant methods.(•—Íçýÿÿÿÿ
+q
+java:S1450"\Remove the "btDataBinding" field and declare it as a local variable in the relevant methods.(œñ˜
+o
+java:S1450"YRemove the "btLiveData" field and declare it as a local variable in the relevant methods.(ÑÆ­Ì
+t
+java:S1450"^Remove the "btUserViewModel" field and declare it as a local variable in the relevant methods.(’¨¹’
+u
+java:S1450"ZRemove the "btViewModel" field and declare it as a local variable in the relevant methods.(ñ«¹°ÿÿÿÿÿ
+>
+java:S1604#"(Make this anonymous inner class a lambda(ðé¨Ð
+C
+java:S1604+"(Make this anonymous inner class a lambda(¼¯ô«ÿÿÿÿÿ
+=
+java:S16043"(Make this anonymous inner class a lambda(“Þ®J
+C
+java:S1604;"(Make this anonymous inner class a lambda(±§§ùùÿÿÿÿ
+>
+java:S1604C"(Make this anonymous inner class a lambda(°½æ­

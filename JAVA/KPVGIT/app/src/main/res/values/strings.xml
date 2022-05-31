@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">KPV GIT</string>
+
+    <string name="retry">Reintentar</string>
+    <string name="unknown_error">Error desconocido</string>
+    <string name="ally_user_photo">Foto de Usuario</string>
+    <string name="ally_user_name">Nombre de Usuario</string>
+    <string name="search_hint">Buscar Repositorios</string>
+    <string name="repo_full_name"><b>%s</b>/%s</string>
+    <string name="empty_search_result">No results for <b>%S</b></string>
+    <string name="ally_contributor_avatar">Avatar de Contribuidor</string>
+
+</resources>

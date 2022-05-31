@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="HOLA"
+        android:textColor="@color/Negro"
+        android:layout_marginTop="50sp"
+        />
+
+        <TextView
+            android:id="@+id/tvNombre"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"
+    android:gravity="center"
+    android:textColor="@color/Negro"
+    android:layout_marginLeft="50sp"
+    android:layout_marginRight="8sp"
+    android:layout_marginTop="50sp"
+    />
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="tu edad es de"
+            android:textColor="@color/Negro"
+            android:layout_marginTop="2sp"
+            android:layout_marginLeft="50sp"
+            android:layout_marginRight="8sp"
+            />
+
+        <TextView
+            android:id="@+id/tvEdad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/Negro"
+            android:layout_marginTop="2sp"
+            android:layout_marginLeft="4sp"
+            android:layout_marginRight="8sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="años"
+            android:textColor="@color/Negro"
+            android:layout_marginTop="2sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="y eres"
+            android:textColor="@color/Negro"
+            android:layout_marginLeft="50sp"
+            />
+
+        <TextView
+            android:id="@+id/tvSexo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="@color/Negro"
+            android:layout_marginLeft="8sp"
+            />
+    </LinearLayout>
+</LinearLayout>

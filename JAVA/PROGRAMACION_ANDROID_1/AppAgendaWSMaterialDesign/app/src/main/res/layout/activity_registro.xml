@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="REGISTRAR USUARIO"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="49dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/baseline_perm_identity_black_18dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TilNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:counterEnabled="true"
+            app:counterMaxLength="30"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@color/colorRojo"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp">
+
+            <EditText
+                android:layout_width="270dp"
+                android:layout_height="50dp"
+                android:id="@+id/EtNombre"
+                android:gravity="center"
+                android:hint="Nombre"
+                android:inputType="text"
+                android:textSize="18sp"
+                android:focusableInTouchMode="true"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/baseline_email_black_18dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="40dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TilEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:counterEnabled="true"
+            app:counterMaxLength="30"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@color/colorRojo"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp">
+
+            <EditText
+                android:layout_width="270dp"
+                android:layout_height="50dp"
+                android:id="@+id/EtEmail"
+                android:hint="Email"
+                android:gravity="center"
+                android:inputType="textEmailAddress"
+                android:textSize="18sp"
+                android:focusableInTouchMode="true"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/baseline_face_black_18dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="40dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TilUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:counterEnabled="true"
+            app:counterMaxLength="15"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@color/colorRojo"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp">
+
+            <EditText
+                android:layout_width="270dp"
+                android:layout_height="50dp"
+                android:id="@+id/EtUsuario"
+                android:hint="Usuario"
+                android:gravity="center"
+                android:inputType="text"
+                android:textSize="18sp"
+                android:focusableInTouchMode="true"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/baseline_lock_open_black_18dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="40dp"
+            />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TilPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            app:passwordToggleEnabled="true"
+            app:counterEnabled="true"
+            app:counterMaxLength="12"
+            app:errorEnabled="true"
+            app:errorTextAppearance="@color/colorRojo">
+
+            <EditText
+                android:layout_width="270dp"
+                android:layout_height="50dp"
+                android:id="@+id/EtPassword"
+                android:hint="Contraseña"
+                android:gravity="center"
+                android:inputType="textPassword"
+                android:textSize="18sp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/BtnIngresar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="REGISTRAR"
+        android:textColor="@color/colorBlanco"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        />
+
+</LinearLayout>

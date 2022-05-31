@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/WiFiOn"
+        android:title="Encender WiFi"
+        />
+    <item
+        android:id="@+id/BluetoothOn"
+        android:title="Encender Bluetooth"
+        />
+    <item
+        android:id="@+id/WiFiOff"
+        android:title="Apagar WiFi"
+        />
+    <item
+        android:id="@+id/BluetoothOff"
+        android:title="Apagar Bluetooth"
+        />
+</menu>

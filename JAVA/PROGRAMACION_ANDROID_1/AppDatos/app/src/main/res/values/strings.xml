@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AppDatos</string>
+    <string name="toast">HA OCURRIDO UN ERROR, VUELVE A INTENTARLO</string>
+</resources>

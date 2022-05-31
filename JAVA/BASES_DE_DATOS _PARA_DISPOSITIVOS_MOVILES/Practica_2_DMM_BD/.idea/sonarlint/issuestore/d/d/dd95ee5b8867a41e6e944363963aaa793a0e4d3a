@@ -1,0 +1,37 @@
+
+p	java:S116"VRename this field "NombreTabla" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Íìøþÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÐÍÃ´ÿÿÿÿÿ
+h	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô•í°ùÿÿÿÿ
+U
+java:S1854.":Remove this useless assignment to local variable "limite".(Šº–ûùÿÿÿÿ
+Z
+java:S1854-"?Remove this useless assignment to local variable "ordenadoPor".(ß©åÖøÿÿÿÿ
+W
+java:S1854,"<Remove this useless assignment to local variable "teniendo".(î·óûøÿÿÿÿ
+W
+java:S1854+"<Remove this useless assignment to local variable "grupoPor".(¹ìù¥þÿÿÿÿ
+T
+java:S1854*">Remove this useless assignment to local variable "valorDonde".(Ã»¹î
+O
+java:S1854)"9Remove this useless assignment to local variable "donde".(Äú÷õ
+R
+java:S1854("<Remove this useless assignment to local variable "columnas".(ÌÂ´»
+C
+java:S1481("-Remove this unused "columnas" local variable.(ÌÂ´»
+@
+java:S1481)"*Remove this unused "donde" local variable.(Äú÷õ
+E
+java:S1481*"/Remove this unused "valorDonde" local variable.(Ã»¹î
+H
+java:S1481+"-Remove this unused "grupoPor" local variable.(¹ìù¥þÿÿÿÿ
+H
+java:S1481,"-Remove this unused "teniendo" local variable.(î·óûøÿÿÿÿ
+K
+java:S1481-"0Remove this unused "ordenadoPor" local variable.(ß©åÖøÿÿÿÿ
+F
+java:S1481."+Remove this unused "limite" local variable.(Šº–ûùÿÿÿÿ
+`
+java:S1192"JDefine a constant instead of duplicating this literal "direccion" 3 times.(ëòËó
+y
+java:S1488/"cImmediately return this expression instead of assigning it to the temporary variable "datosCursor".(È”Š±
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ªÜ‡¦

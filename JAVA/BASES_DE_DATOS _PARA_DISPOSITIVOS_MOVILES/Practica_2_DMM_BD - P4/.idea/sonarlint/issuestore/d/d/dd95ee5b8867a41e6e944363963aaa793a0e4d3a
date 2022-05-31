@@ -1,0 +1,15 @@
+
+p	java:S116"VRename this field "NombreTabla" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Íìøþÿÿÿÿ
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š»¢Šÿÿÿÿÿ
+h	java:S100""NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô•í°ùÿÿÿÿ
+c	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§èß½
+h	java:S100@"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÍïÿÜúÿÿÿÿ
+b
+java:S1192"GDefine a constant instead of duplicating this literal "nombre" 3 times.(ºïí‘úÿÿÿÿ
+C
+java:S1121=".Extract the assignment out of this expression.(ýö g
+C
+java:S1121M".Extract the assignment out of this expression.(ýö g
+y
+java:S1488$"cImmediately return this expression instead of assigning it to the temporary variable "datosCursor".(È”Š±
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ªÜ‡¦

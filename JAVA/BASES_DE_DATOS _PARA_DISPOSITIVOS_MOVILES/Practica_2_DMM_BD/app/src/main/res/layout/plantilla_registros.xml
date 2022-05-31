@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    android:background="@color/colorLight">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:src="@drawable/registro"/>
+
+    <TextView
+        android:id="@+id/tvIdU"
+        android:layout_marginTop="5dp"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorNegro"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/tvNombre"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorNegro"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/tvDireccion"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorNegro"
+        android:textSize="15dp"/>
+
+    <TextView
+        android:id="@+id/tvTelefono"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorNegro"
+        android:textSize="15dp"/>
+
+</LinearLayout>
