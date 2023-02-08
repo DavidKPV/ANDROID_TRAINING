@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AndroidTrivia-Starter-DMM.iml" filepath="$PROJECT_DIR$/.idea/modules/AndroidTrivia-Starter-DMM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidTrivia-Starter-DMM.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidTrivia-Starter-DMM.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidTrivia-Starter-DMM.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidTrivia-Starter-DMM.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidTrivia-Starter-DMM.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidTrivia-Starter-DMM.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AndroidTrivia-Starter-DMM.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AndroidTrivia-Starter-DMM.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

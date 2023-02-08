@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">AndroidSample</string>
+  <string name="convert_string">Convert</string>
+  <string name="add">Suma</string>
+  <string name="substract">Resta</string>
+  <string name="multiply">Multiplicación</string>
+  <string name="divide">División</string>
+  <string name="number1">Número 1</string>
+  <string name="number2">Número 2</string>
+  <string name="no_value_string">No value</string>
+</resources>
